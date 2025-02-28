@@ -1,0 +1,7 @@
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\yeonwoo\Documents\GitHub\LikeLion_0228\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
