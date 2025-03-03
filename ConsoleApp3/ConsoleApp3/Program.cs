@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
@@ -29,6 +30,7 @@ namespace ShootingGame
         public int Score = 100;
         public Item item = new Item();
         public int itemCount = 0;
+        public Stopwatch sw;
 
 
         public Player() //생성자
@@ -36,7 +38,8 @@ namespace ShootingGame
             //플레이어 좌표위치 초기화
             playerX = 0;
             playerY = 12;
-
+            sw = new Stopwatch();
+            sw.Start();
             for (int i = 0; i < 20; i++) //총알 초기화
             {
                 playerBullet[i] = new BULLET();
@@ -368,14 +371,14 @@ namespace ShootingGame
 
         public void UIscore()
         {
-            Console.SetCursorPosition(63, 0);
-            Console.Write("┏━━━━━━━━━━━━━━┓");
-            Console.SetCursorPosition(63, 1);
-            Console.Write("┃              ┃");
-            Console.SetCursorPosition(65, 1);
-            Console.Write("Score : " + Score);
-            Console.SetCursorPosition(63, 2);
-            Console.Write("┗━━━━━━━━━━━━━━┛");
+            Console.SetCursorPosition(54, 0);
+            Console.Write("┏━━━━━━━━━━━━━━━━━━━━━━┓");
+            Console.SetCursorPosition(54, 1);
+            Console.Write("┃                      ┃");
+            Console.SetCursorPosition(55, 1);
+            Console.Write("time: "+sw.ElapsedMilliseconds/1000+"초" + " Score : " + Score);
+            Console.SetCursorPosition(54, 2);
+            Console.Write("┗━━━━━━━━━━━━━━━━━━━━━━┛");
         }
 
         //아이템 충돌이 일어나면 양쪽미사일 발사
